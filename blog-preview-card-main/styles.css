@@ -1,21 +1,23 @@
 @font-face {
   font-family: "Figtree";
   src: url(./assets/fonts/static/Figtree-Medium.ttf);
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Figtree";
   src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
-  font-weight: 900;
+  font-weight: 800;
   font-style: normal;
 }
 
 :root {
   --primary:  #f4d04e;
-  --secondary: #121212;
+  --black: #121212;
   --white: #ffffff;
+  --link:  #3e52a3;
+  --grey: #6b6b6b;
 }
 
 body {
@@ -34,10 +36,10 @@ body {
   flex-direction: column;
   border-radius: 20px;
   width: 350px;
-  border: 1px solid var(--secondary);
+  border: 1px solid var(--black);
   padding: 25px;
-  -webkit-box-shadow: 12px 5px 15px 5px var(--secondary); 
-  box-shadow: 8px 7px 0px 0px var(--secondary);
+  -webkit-box-shadow: 12px 5px 15px 5px var(--black); 
+  box-shadow: 8px 7px 0px 0px var(--black);
 }
 .card .header-img {
   border-radius: 12px;
@@ -45,7 +47,7 @@ body {
 }
 
 .card span.tag {
-  background: #f4d04e;
+  background: var(--primary);
   border-radius: 4px;
   display: inline-block;
   width: fit-content;
@@ -70,7 +72,7 @@ body {
 
 p.description-card {
   font-size: 16px;
-  color: #6b6b6b;
+  color: var(--grey);
   line-height: 24px;
   margin: 0;
   margin-bottom: 19px;
@@ -100,5 +102,5 @@ p.description-card {
 
 
 .attribution a {
-  color: #3e52a3;
+  color: var(--link);
 }
