@@ -12,8 +12,14 @@
   font-style: normal;
 }
 
+:root {
+  --primary:  #f4d04e;
+  --secondary: #121212;
+  --white: #ffffff;
+}
+
 body {
-  background: rgb(244, 208, 78);
+  background: var(--primary);
   font-family: "Figtree";
   display: flex;
   justify-content: center;
@@ -23,15 +29,15 @@ body {
 }
 
 .card {
-  background: white;
+  background: var(--white);
   display: flex;
   flex-direction: column;
   border-radius: 20px;
   width: 350px;
-  border: 1px solid black;
+  border: 1px solid var(--secondary);
   padding: 25px;
-  -webkit-box-shadow: 12px 5px 15px 5px #000000; 
-  box-shadow: 8px 7px 0px 0px #000000;
+  -webkit-box-shadow: 12px 5px 15px 5px var(--secondary); 
+  box-shadow: 8px 7px 0px 0px var(--secondary);
 }
 .card .header-img {
   border-radius: 12px;
@@ -39,7 +45,7 @@ body {
 }
 
 .card span.tag {
-  background: rgb(244, 208, 78);
+  background: #f4d04e;
   border-radius: 4px;
   display: inline-block;
   width: fit-content;
@@ -64,7 +70,7 @@ body {
 
 p.description-card {
   font-size: 16px;
-  color: hsl(0, 0%, 42%);
+  color: #6b6b6b;
   line-height: 24px;
   margin: 0;
   margin-bottom: 19px;
@@ -94,5 +100,5 @@ p.description-card {
 
 
 .attribution a {
-  color: rgb(62, 82, 163);
+  color: #3e52a3;
 }
