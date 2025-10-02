@@ -82,6 +82,7 @@ header p {
   .column {
     flex-direction: column;   /* cards en columna */
     align-items: center;
+    padding: 0;
   }
 
   .card {
