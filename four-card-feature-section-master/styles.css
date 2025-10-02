@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+:root {
+  --primary-red: #ea5353;
+  --primary-cyan: #45d3d3;
+  --primary-orange: #fcaf4a;
+  --primary-blue: #549ef2;
+  --grey-500: #4c4e61;
+  --grey-400: #697077;
+  --white: #ffffff;
+  --white-secundary: #fafafa;
+}
+
+body {
+  background: var(--white-secundary);
+  font-family: "Poppins";
+  padding-top: 84px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 200;
+  margin: 0;
+  color: var(--grey-400);
+  margin-bottom: 1px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0;
+  color: var(--grey-500);
+  margin-bottom: 10px;
+}
+
+header p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--grey-400);
+  margin-bottom: 50px;
+}
+
+.columns-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* separación entre columnas */
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 0px 0px 28px;
+  gap: 24px;
+}
+
+.card {
+  overflow: auto;
+  color: var(--grey-400);
+  font-size: 12px;
+  max-width: 280px;
+  width: 100%;
+  margin: 0;
+  background: var(--white);
+  border-radius: 6px;
+  -webkit-box-shadow: 6px 4px 50px 4px rgba(0, 0, 0, 0.11);
+  box-shadow: 6px 4px 50px 4px rgba(0, 0, 0, 0.11);
+}
+
+@media (max-width: 768px) {
+  .columns-container {
+    flex-direction: column;   /* columnas apiladas */
+    align-items: center;
+  }
+
+  .column {
+    flex-direction: column;   /* cards en columna */
+    align-items: center;
+  }
+
+  .card {
+    max-width: 320px;  /* un poco más anchas en mobile */
+    width: 100%;
+  }
+}
+
+.card-border-team {
+  border-top: 4px solid var(--primary-red);
+}
+
+.card-border-supervisor {
+  border-top: 4px solid var(--primary-cyan);
+}
+
+.card-border-karma {
+  border-top: 4px solid var(--primary-orange);
+}
+
+.card-border-calculator {
+  border-top: 4px solid var(--primary-blue);
+}
+
+.card-content {
+  padding: 16px 8px 15px 18px;
+}
+
+.image {
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+
+img {
+  width: 50px;
+}
+
+h4 {
+  margin: 0;
+  color: var(--grey-500);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 12px;
+  color: var(--grey-400);
+  margin: 5px 0px 10px 0px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
