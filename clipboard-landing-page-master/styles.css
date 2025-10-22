@@ -244,6 +244,7 @@ paragraph-content p {
 .clipboard-content .buttons-container {
   display: flex;
   justify-content: center;
+  width: 100dvw;
   gap: 10px;
   margin-bottom: 90px;
 }
@@ -468,8 +469,11 @@ footer {
   }
 
   .footer-text {
+    display: flex;
     flex-direction: column;
     gap: 30px;
+    text-align: center;
+    align-items: center;
   }
 
   .footer-text div {
