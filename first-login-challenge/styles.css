@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300,400,500,600&display=swap');
+
+
+body {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100dvh;
+  margin: 0;
+  padding-top: 50px;
+  padding-left: 4px;
+  box-sizing: border-box;
+}
+
+
+.login-form {
+  background: #fff;
+  padding: 36px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px #0000000a;
+  border: 1px solid #d1d5db;
+  width: 350px;
+}
+
+
+h1 {
+  font-size: 28px;
+  margin: 0;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+
+.description {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 28px;
+}
+
+
+.button-google-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 10px;
+  background: white;
+  color: #303949;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+  cursor: pointer;
+}
+
+
+.button-google-content:hover {
+  background-color: #f0f1f2c6;
+}
+
+
+.button-google-content img {
+  width: 19px;
+  height: 19px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+.or-container {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 28px;
+  gap: 5px;
+  align-items: center;
+}
+
+
+.line {
+  border-top: 1px solid #d7d6d6;
+  margin-top: 2px;
+  flex-grow: 1;
+}
+
+
+.or-container span {
+  font-size: 14px;
+  text-align: center;
+  color: #535f73;
+}
+
+
+.data-label-form {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+
+.complete-form {
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  padding: 12px 9px;
+  margin: 0;
+  margin-bottom: 8px;
+  /* height: 20px; */
+}
+
+
+.complete-form:focus {
+  border: 2px solid #0050BC;
+  outline: #0050BC;
+}
+
+.button-sign-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #0050BC;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  border: 0;
+  border-radius: 6px;
+  padding: 12px 70px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.footer-content {
+  color: #949597;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.attribution a {
+  color: #000000;
+}
