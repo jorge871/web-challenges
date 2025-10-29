@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300,400,500,600&display=swap');
 
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Inter", sans-serif;
@@ -9,9 +12,7 @@ body {
   justify-content: center;
   min-height: 100dvh;
   margin: 0;
-  padding-top: 50px;
-  padding-left: 4px;
-  box-sizing: border-box;
+  padding: 16px;
 }
 
 
@@ -21,7 +22,8 @@ body {
   border-radius: 15px;
   box-shadow: 0 4px 20px #0000000a;
   border: 1px solid #d1d5db;
-  width: 350px;
+  width: 100%;
+  max-width: 430px;
 }
 
 
@@ -149,7 +151,47 @@ form {
 }
 
 
+@media (max-width: 480px) {
+  body {
+    padding-top: 20px;
+  }
+
+  .login-form {
+    padding: 24px 18px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .button-google-content {
+    gap: 6px;
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .complete-form {
+    padding: 10px 7px;
+    font-size: 14px;
+  }
+
+  .button-sign-up {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+
+  .footer-content {
+    font-size: 13px;
+  }
+}
+
 .attribution {
+  width: 100%;
   font-size: 11px;
   text-align: center;
   padding-bottom: 5px;
