@@ -18,12 +18,12 @@ body {
 
 .login-form {
   background: #fff;
-  padding: 36px;
+  padding: 18px;
   border-radius: 15px;
   box-shadow: 0 4px 20px #0000000a;
   border: 1px solid #d1d5db;
   width: 100%;
-  max-width: 430px;
+  max-width: 360px;
 }
 
 
@@ -32,7 +32,7 @@ h1 {
   margin: 0;
   margin-bottom: 10px;
   color: #000;
-}
+} 
 
 
 .description {
@@ -82,8 +82,8 @@ form {
 
 .or-container {
   display: flex;
-  margin-top: 30px;
-  margin-bottom: 28px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   gap: 5px;
   align-items: center;
 }
@@ -116,7 +116,7 @@ form {
   border: 1px solid #d1d5db;
   padding: 12px 9px;
   margin: 0;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   /* height: 20px; */
 }
 
@@ -139,8 +139,8 @@ form {
   border: 0;
   border-radius: 6px;
   padding: 12px 70px;
-  margin-top: 18px;
-  margin-bottom: 18px;
+  margin-top: 12px;
+  margin-bottom: 14px;
 }
 
 .footer-content {
